@@ -1,3 +1,14 @@
+.container-xl{
+  max-width: 100%;
+  min-width: 320px;
+  position: relative;
+  top: 6rem;
+}
+
+.center-content{
+  margin: 0 auto;
+}
+
 /*NAVBAR STYLING*/
 
 .navbar{
@@ -83,4 +94,18 @@
   left: 35%;
   background: url(../images/profile.jpg) center center/cover;
   box-shadow: 0 2px 6px -2px black;
+}
+
+/* END PICTURES STYLING */
+
+/* CONTENT STYLING */
+
+#skills{
+  background-color: #778360;
+}
+
+.card{
+  background-color: #fff;
+  box-shadow: 0 2px 3px -4px #000;
+  margin-top: 10px
 }
