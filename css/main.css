@@ -1,3 +1,5 @@
+/*NAVBAR STYLING*/
+
 .navbar{
   height: 50px;
   padding: 0;
@@ -33,4 +35,52 @@
 .nav-menu a{
   color: #333;
   font-size: .654rem;
+}
+
+/*END NAVBAR STYLING*/
+
+
+/*BILLBOARD*/
+
+.billboard{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 50px;
+}
+
+.billboard h1{
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding-top: 35%;
+  padding-bottom: 0;
+}
+
+.tagline{
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.social-wrapper{
+  font-size: 2.5rem;
+}
+
+.social-wrapper .fa-linkedin-square{
+  margin: 0 38px;
+}
+
+/*END BILLBOARD STYLING*/
+
+/*PROFILE PICTURE STYLING*/
+
+.profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #778360;
+  position: absolute;
+  left: 35%;
+  background: url(../images/profile.jpg) center center/cover;
+  box-shadow: 0 2px 6px -2px black;
 }
