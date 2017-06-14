@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+[class^=col]{
+  position: relative;
+}
+
 /*NAVBAR STYLING*/
 
 .navbar{
@@ -107,6 +111,16 @@
 .card{
   background-color: #fff;
   box-shadow: 0 2px 3px -4px #000;
-  margin-top: 10px;
+  margin: 15px 0;
   padding: 15px;
+}
+
+
+#plumage .col-md-4{
+  background-color: #eee;
+  margin-bottom: 15px;
+}
+
+#littlesunshine .col-md-4{
+  background-color: #eee;
 }
