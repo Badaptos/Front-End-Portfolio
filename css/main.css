@@ -178,9 +178,21 @@ footer{
 }
 
 @media screen and (min-width: 670px){
+
   .nav-menu{
     float: none;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .billboard h1{
+    font-size: 8rem;
+    padding-top: 10%;
+  }
+
+  .tagline{
+    font-size: 4rem;
   }
 
   .nav-menu ul{
@@ -197,5 +209,9 @@ footer{
 
   .nav-menu .fa-code{
     font-size: 1.3rem;
+  }
+
+  .social-wrapper{
+    font-size: 4.5rem;
   }
 }
