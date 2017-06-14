@@ -9,8 +9,11 @@
   margin: 0 auto;
 }
 
-[class^=col]{
-  position: relative;
+[class^="col"]:first-child { margin-left: 0; }
+[class^="col"]:last-child { margin-right: 0; }
+
+[class^="container"] [class^="container"]{
+  top: 0;
 }
 
 /*NAVBAR STYLING*/
@@ -81,6 +84,10 @@
   font-size: 2.5rem;
 }
 
+.social-wrapper .fa{
+  color: #fff;
+}
+
 .social-wrapper .fa-linkedin-square{
   margin: 0 38px;
 }
@@ -95,7 +102,9 @@
   border-radius: 50%;
   border: 3px solid #778360;
   position: absolute;
-  left: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   background: url(../images/profile.jpg) center center/cover;
   box-shadow: 0 2px 6px -2px black;
 }
@@ -111,8 +120,10 @@
 .card{
   background-color: #fff;
   box-shadow: 0 2px 3px -4px #000;
-  margin: 15px 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 15px;
+  min-height: 374px;
 }
 
 
@@ -156,4 +167,35 @@ input[type=email]{
 footer{
   margin-top: 6rem;
   height: 10vh;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width:600px){
+  .billboard h1{
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 670px){
+  .nav-menu{
+    float: none;
+    margin: 0;
+  }
+
+  .nav-menu ul{
+    padding: 0;
+  }
+
+  .nav-menu li{
+    margin-top: 0;
+  }
+
+  .nav-menu a{
+    font-size: 1.3rem;
+  }
+
+  .nav-menu .fa-code{
+    font-size: 1.3rem;
+  }
 }
