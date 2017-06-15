@@ -18,7 +18,7 @@
   top: 0;
 }
 
-.container-lg{``
+.container-lg{
   min-width: 200px;
 }
 
@@ -135,7 +135,7 @@
 }
 
 #projects{
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #plumage{
