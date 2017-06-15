@@ -189,13 +189,22 @@ footer{
   .billboard h1{
     font-size: 4rem;
   }
+
+  input{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 670px){
-
   .nav-menu{
     float: none;
     margin: 0;
+  }
+
+  input[type=email]{
+    min-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
   }
 }
 
