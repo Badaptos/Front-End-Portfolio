@@ -1,3 +1,5 @@
+/*STYLING THAT SHOULD END UP BEING INCLUDED IN PLUMAGE FRAMEWORK*/
+
 .container-xl{
   max-width: 100%;
   min-width: 320px;
@@ -15,6 +17,12 @@
 [class^="container"] [class^="container"]{
   top: 0;
 }
+
+.container-lg{``
+  min-width: 200px;
+}
+
+/* END PLUMAGE STYLING*/
 
 /*NAVBAR STYLING*/
 
@@ -126,10 +134,21 @@
   min-height: 374px;
 }
 
+#projects{
+  padding: 20px 0;
+}
+
+#plumage{
+  padding: 0;
+}
 
 #plumage .col-md-4{
   background-color: #eee;
   margin-bottom: 15px;
+}
+
+#littlesunshine{
+  padding: 0;
 }
 
 #littlesunshine .col-md-4{
@@ -153,6 +172,10 @@ input[type=email]{
 
 #contact .social-wrapper{
   font-size: 1rem;
+}
+
+#contact .social-wrapper .fa{
+  color: #333;
 }
 
 #contact .social-wrapper .fa-linkedin-square{
