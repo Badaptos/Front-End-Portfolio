@@ -184,10 +184,20 @@ button:hover{
   box-shadow: none;
 }
 
+.button-lg{
+  width: 50%;
+}
+
 footer{
   margin-top: 6rem;
   height: 10vh;
   background-color: #778360;
+}
+
+.ui-widget-header{
+  background-color: #778360;
+  border-bottom: none;
+  text-align: center;
 }
 
 
