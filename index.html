@@ -7,11 +7,10 @@
   <meta name="theme-color" content="#778360">
   <title>Alejandro Garcia | Portfolio</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/plumage.min.css">
   <script src="https://use.fontawesome.com/cbc06ff1e7.js"></script>
   <link rel="stylesheet" href="css/main.css">
@@ -20,11 +19,11 @@
   <header class="navbar">
      <nav class="nav-menu">
        <ul>
-         <li><a href="#">ABOUT</a></li>
-         <li><a href="#">SKILLS</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#skills">SKILLS</a></li>
          <i class="fa fa-code" aria-hidden="true"></i>
-         <li><a href="#">PROJECTS</a></li>
-         <li><a href="#">CONTACT</a></li>
+         <li><a href="#projects">PROJECTS</a></li>
+         <li><a href="#contact">CONTACT</a></li>
        </ul>
      </nav>
    </header>
@@ -42,7 +41,7 @@
    <!-- END BILLBOARD -->
    <div class="profile"></div> <!-- PROFILE PICTURE ELEMENT -->
    <main class="container-xl">
-     <section class="container-lg">
+     <section class="container-lg" id="about">
        <section class="row">
          <div class="col-md-12">
            <p class="txt-center">Hey there, my name is Alejandro Garcia! I am 20 years old and reside in sunny San Diego, CA. I have been self teaching front end web development. Take a look around and feel free to contact me if any questions arise!</p>
@@ -80,7 +79,6 @@
            <div class="col-lg-4 txt-center pull-4">
              <h2>Plumage</h2>
              <p>Plumage was my final project for a front end development course. this project involved working with three other team memebers to create a functioning front end framework.</p>
-             <button class="button-lg clickDialog1">More</button>
            </div>
          </section>
        </section>
@@ -92,7 +90,6 @@
            <div class="col-lg-4 txt-center">
              <h2>Little Sunshine</h2>
              <p>Little Sunshine is a wordpress built website for a child care provider service. Building this site was an introduction to working with a CMS to produce a clean yet beautiful site. This site was built locally through the use of wamp and later on published online.</p>
-             <button class="button-lg clickDialog2">More</button>
            </div>
          </section>
        </section>
@@ -128,22 +125,7 @@
    </main>
   <!-- END MAIN -->
 
-  <!-- DIALOG SECTIONS -->
-
-  <div id="boxDialog1" title="Plumage" class="txt-center">
-    <img src="images/plumage.png" alt="Plumage CSS Website">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, vitae alias voluptatum. Iusto ipsam beatae vitae illo, excepturi eos qui. Sequi assumenda at, ad repudiandae? Error debitis, vero a ab.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quod numquam. Nobis eaque ullam, quo obcaecati facilis iure. Corrupti repellendus, aliquam ex voluptatem adipisci mollitia debitis recusandae pariatur temporibus doloribus!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae soluta dicta quas ipsa repellendus, quia maiores, cumque qui laboriosam, expedita illo voluptatibus eveniet eius hic. Dolorem delectus quae tempore magni.</p>
-    <p>Est nesciunt tenetur ullam minima assumenda nostrum fuga, perferendis eveniet deserunt alias, architecto incidunt cum, necessitatibus nam mollitia ea pariatur cumque accusantium. Iure voluptatum vitae, deserunt nemo quae dolores laudantium!</p>
-    <p>Assumenda totam distinctio ipsam molestiae placeat. Voluptatem recusandae esse laborum dignissimos minima ad nulla, sequi in atque iste, facilis laboriosam ipsa earum, quo illum. Atque assumenda omnis aperiam excepturi dicta.</p>
-    <p>Aspernatur iusto beatae in optio nisi culpa, ab laborum doloremque. Sit perferendis nostrum accusamus maxime soluta, mollitia ex eos a molestiae, dicta tempora rerum necessitatibus laboriosam, accusantium iusto quam pariatur.</p>
-  </div>
-
-  <!-- END DIALOG SECTIONS -->
-
-
    <footer><p class="txt-center">&copy; Alejandro Garcia 2017</p></footer>
-  <script src="js/plumage.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
