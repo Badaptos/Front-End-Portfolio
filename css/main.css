@@ -237,6 +237,10 @@ footer{
     font-size: 1.3rem;
   }
 
+  .billboard{
+    top: 60px;
+  }
+
   .billboard h1{
     font-size: 8rem;
     padding-top: 10%;
@@ -244,6 +248,10 @@ footer{
 
   .tagline{
     font-size: 4rem;
+  }
+
+  .navbar{
+    height: 60px;
   }
 
   .nav-menu ul{
