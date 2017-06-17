@@ -226,6 +226,10 @@ footer{
 }
 
 @media screen and (min-width: 992px){
+  p{
+    font-size: 1.3rem;
+  }
+
   .billboard h1{
     font-size: 8rem;
     padding-top: 10%;
@@ -253,6 +257,12 @@ footer{
 
   .social-wrapper{
     font-size: 4.5rem;
+  }
+
+  .profile{
+    width: 150px;
+    height: 150px;
+    bottom: -120px;
   }
 
   .push-8{
