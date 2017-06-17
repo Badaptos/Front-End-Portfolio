@@ -22,6 +22,12 @@
   min-width: 200px;
 }
 
+canvas{
+  position: relative;
+  top: 50px;
+  background-color: #333;
+}
+
 /* END PLUMAGE STYLING*/
 
 /*NAVBAR STYLING*/
@@ -72,7 +78,7 @@
   font-family: 'Roboto', sans-serif;
   background-image: url(../images/hero.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   top: 50px;
 }
 
@@ -265,6 +271,16 @@ footer{
     bottom: -120px;
   }
 
+  .row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .push-8{
     position: relative;
     left: 33.867%
@@ -277,5 +293,6 @@ footer{
 
   footer{
     height: 5vh;
+    margin-top: 4rem;
   }
 }
