@@ -142,11 +142,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
-  min-height: 374px;
-}
-
-#projects{
-  padding: 30px 0;
+  min-height: 395px;
 }
 
 #plumage{
@@ -238,6 +234,11 @@ footer{
 }
 
 @media screen and (min-width: 670px){
+
+  #projects [class^=col]{
+    margin: 0;
+  }
+
   .nav-menu{
     float: none;
     margin: 0;
@@ -251,6 +252,7 @@ footer{
 }
 
 @media screen and (min-width: 992px){
+
   p{
     font-size: 1.2rem;
   }
@@ -310,6 +312,7 @@ footer{
   .card{
     margin-top: 50px;
     margin-bottom: 50px;
+    min-height: 374px;
   }
 
   .push-8{
