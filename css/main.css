@@ -132,6 +132,11 @@
 
 /* CONTENT STYLING */
 
+#about a{
+  color: #FFA726;
+  font-style: italic;
+}
+
 #skills{
   background-color: #778360;
 }
@@ -145,8 +150,7 @@
   min-height: 395px;
 }
 
-#plumage{
-  padding: 0;
+#projects > .row{
   margin-bottom: 50px;
 }
 
@@ -176,9 +180,16 @@ input[type=email]{
   margin: 0 1rem;
 }
 
-
 #contact p{
   padding: 0;
+}
+
+#contact a{
+  color: #333;
+}
+
+#contact a:hover{
+  color: #778360;
 }
 
 button{
@@ -252,6 +263,10 @@ footer{
 }
 
 @media screen and (min-width: 992px){
+
+  #projects [class^=col]{
+    margin: 0 1.2%;
+  }
 
   p{
     font-size: 1.2rem;
@@ -330,14 +345,6 @@ footer{
   }
 
   #contact .social-wrapper .fa:hover{
-    color: #778360;
-  }
-
-  #contact a{
-    color: #333;
-  }
-
-  #contact a:hover{
     color: #778360;
   }
 
