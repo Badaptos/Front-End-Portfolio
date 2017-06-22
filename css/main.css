@@ -246,6 +246,11 @@ footer{
 
 @media screen and (min-width: 670px){
 
+  #skills{
+    padding-left: 25px;
+  }
+
+
   #projects [class^=col]{
     margin: 0;
   }
