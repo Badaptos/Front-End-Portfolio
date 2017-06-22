@@ -246,9 +246,6 @@ footer{
 
 @media screen and (min-width: 670px){
 
-  #skills{
-    padding-left: 30px;
-  }
 
 
   #projects [class^=col]{
@@ -335,16 +332,6 @@ footer{
     min-height: 374px;
   }
 
-  .push-8{
-    position: relative;
-    left: 33.867%
-  }
-
-  .pull-4{
-    position: relative;
-    right: 68%;
-  }
-
   #contact .social-wrapper{
     font-size: 2rem;
   }
@@ -356,5 +343,17 @@ footer{
   footer{
     height: 5vh;
     margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 1030px){
+  .push-8{
+    position: relative;
+    left: 33.867%
+  }
+
+  .pull-4{
+    position: relative;
+    right: 68%;
   }
 }
