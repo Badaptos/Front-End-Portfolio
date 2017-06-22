@@ -92,6 +92,14 @@
   margin-top: 10px;
 }
 
+.welcome-text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .social-wrapper{
   font-size: 2.5rem;
 }
@@ -284,8 +292,8 @@ footer{
   }
 
   .billboard h1{
-    font-size: 8rem;
-    padding-top: 10%;
+    font-size: 5rem;
+    padding-top: 5%;
   }
 
   .tagline{
@@ -360,5 +368,12 @@ footer{
   .pull-4{
     position: relative;
     right: 68%;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .billboard h1{
+    font-size: 5rem;
+    padding-top: 10%;
   }
 }
