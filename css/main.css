@@ -1,60 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:300,400,500,700');
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-img{
-  max-width: 100%;
+img {
+    max-width: 100%;
 }
 
-header{
-  height: 85vh;
-  background-image: url(../images/pattern.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Permanent Marker', cursive;
+header {
+    height: 85vh;
+    background-image: url(../images/pattern.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Permanent Marker', cursive;
 }
 
-header h5{
-  font-family: 'Roboto', sans-serif;
+header h5 {
+    font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #87BCDA;
 }
 
-button, a{
+button,
+a {
     color: #87BCDA;
     border-color: #87BCDA;
 }
 
-.contact-card{
-  text-align: center;
-  padding: 1.5rem;
+.contact-card {
+    text-align: center;
+    padding: 1.5rem;
 }
 
-.contact-card .fa-linkedin-square{
-  margin: 1rem 2rem;
+.contact-card .fa-linkedin-square {
+    margin: 1rem 2rem;
 }
 
-.text-card{
-  text-align: center;
-  color: #333;
-  padding-top: calc(40% - 3rem);
+.text-card {
+    text-align: center;
+    color: #333;
+    padding-top: calc(40% - 3rem);
 }
 
-.text-card h1{
-  letter-spacing: .5rem;
+.text-card h1 {
+    letter-spacing: .5rem;
     color: #fff;
 }
 
-section{
-  margin-top: 15%;
+section {
+    margin-top: 15%;
 }
 
-.profile-img{
+.profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -68,51 +73,51 @@ section{
     bottom: 20px;
 }
 
-footer{
-  height: 120vh;
-  text-align: center;
-  background-image: url(../images/pattern.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  margin-top: 10%;
-  position: relative;
+footer {
+    height: 120vh;
+    text-align: center;
+    background-image: url(../images/pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 10%;
+    position: relative;
 }
 
-.card{
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 3px -4px #000;
-  box-shadow: 0 2px 3px -4px #000;
-  width: 75%;
-  margin: auto;
-  padding: 15px;
-  position: absolute;
-  top: 5%;
-  left: 0;
-  right: 0;
-  max-height: calc(80vh - 70px);
-  border-radius: 5px;
+.card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px -4px #000;
+    box-shadow: 0 2px 3px -4px #000;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    max-height: calc(80vh - 70px);
+    border-radius: 5px;
 }
 
-#skills{
-  text-align: center;
+#skills {
+    text-align: center;
 }
 
-#skills div{
+#skills div {
     margin-bottom: 50px;
 }
 
-#projects div{
+#projects div {
     margin-bottom: 50px;
 }
 
-#projects h3{
-    color: 
+#projects h3 {
+    color:
 }
 
-#contact-info{
-  position: absolute;
-  bottom: 5%;
-  left: 0;
-  right: 0;
+#contact-info {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
 }
