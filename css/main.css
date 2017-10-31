@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Righteous');
 
+
+/*
+COLORS BEING USED
+#7FB2FA - BLUE
+#86C9F5 - LIGHT BLUE
+#FF7140 - LIGHT RED
+
+*/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -10,15 +18,15 @@ img {
 
 header {
     height: 85vh;
+    background: -webkit-gradient(linear, left top, right top, from(#7FB2FA) , to(#86C9F5));
+    background: linear-gradient(to right, #7FB2FA , #86C9F5);
+/*
     background-image: url(../images/pattern.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Permanent Marker', cursive;
-}
-
-header h5 {
-    font-family: 'Roboto', sans-serif;
+*/
+    font-family: 'Righteous', cursive;
 }
 
 h1,
@@ -27,6 +35,7 @@ h3,
 h4,
 h5 {
     color: #87BCDA;
+    font-weight: 500;
 }
 
 button,
@@ -38,6 +47,7 @@ a {
 .contact-card {
     text-align: center;
     padding: 1.5rem;
+    color: #fFF;
 }
 
 .contact-card .fa-linkedin-square {
@@ -51,8 +61,15 @@ a {
 }
 
 .text-card h1 {
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
     color: #fff;
+    text-shadow: 5px 5px 8px #7FB2FA;
+}
+
+.text-card h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-weight: 600;
 }
 
 section {
@@ -73,21 +90,33 @@ section {
     bottom: 20px;
 }
 
+#skills {
+    text-align: center;
+}
+
+#projects div {
+    margin-bottom: 50px;
+}
+
+#plumage{
+    background: url(../images/plumage.png) center center;
+    background-size: cover;
+    height: 200px;
+}
+
 footer {
     height: 120vh;
     text-align: center;
-    background-image: url(../images/pattern.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background: -webkit-gradient(linear, left top, right top, from(#7FB2FA) , to(#86C9F5));
+    background: linear-gradient(to right, #7FB2FA , #86C9F5);
     margin-top: 10%;
     position: relative;
 }
 
 .card {
     background-color: #fff;
-    -webkit-box-shadow: 0 2px 3px -4px #000;
-    box-shadow: 0 2px 3px -4px #000;
+    -webkit-box-shadow: 5px 5px 8px #7FB2FA;
+    box-shadow: 5px 5px 8px #7FB2FA;
     width: 75%;
     margin: auto;
     padding: 15px;
@@ -99,25 +128,14 @@ footer {
     border-radius: 5px;
 }
 
-#skills {
-    text-align: center;
-}
-
-#skills div {
-    margin-bottom: 50px;
-}
-
-#projects div {
-    margin-bottom: 50px;
-}
-
-#projects h3 {
-    color:
-}
-
 #contact-info {
     position: absolute;
     bottom: 5%;
     left: 0;
     right: 0;
+}
+
+#contact-info h4,
+a {
+    color: #333;
 }
