@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700|Righteous|Megrim');
 
 
 /*
@@ -9,7 +9,7 @@ COLORS BEING USED
 
 */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 button{
@@ -31,7 +31,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 */
-    font-family: 'Righteous', cursive;
+    font-family: 'Megrim', cursive;
 }
 
 h1,
@@ -60,9 +60,9 @@ h5 {
 }
 
 .text-card h1 {
-    letter-spacing: .2rem;
     color: #fff;
-/*    text-shadow: 5px 5px 8px #7FB2FA;*/
+    letter-spacing: 0.5rem;
+    font-weight: 900;
 }
 
 .text-card h4{
@@ -101,6 +101,14 @@ section {
 
 #skills i{
 /*    color: #FF7140;*/
+}
+
+.skill-cards{
+    background-color: #fff;
+    max-width: 100%;
+    margin: 25px 0;
+    padding: 20px;
+    min-height: 360px
 }
 
 #projects div {
