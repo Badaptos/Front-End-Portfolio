@@ -9,6 +9,79 @@ COLORS BEING USED
 
 */
 
+/******************
+*  ANIMATIONS *
+*******************/
+
+@-webkit-keyframes wiggle {
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+
+@-webkit-keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes hr-intro {
+    from {
+        width: 0;
+        border: 1px solid white;
+    }
+    to {
+        width: 30%;
+        border: 5px solid white;
+    }
+}
+
+@keyframes hr-intro {
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -34,6 +107,10 @@ header {
     font-family: 'Megrim', cursive;
 }
 
+header .container{
+    margin-top: 0;
+}
+
 h1,
 h2,
 h3,
@@ -47,6 +124,18 @@ h5 {
     text-align: center;
     padding: 1.5rem;
     color: #fFF;
+    font-size: 2rem;
+}
+
+.contact-card i {
+    -webkit-animation-name: wiggle;
+    animation-name: wiggle;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: 5;
+    animation-iteration-count: 5;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
 }
 
 .contact-card .fa-linkedin-square {
@@ -63,13 +152,30 @@ h5 {
     color: #fff;
     letter-spacing: 0.5rem;
     font-weight: 900;
+    -webkit-animation-name: appear;
+    animation-name: appear;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 .text-card h4 {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #fff;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: 300;
+    -webkit-animation-name: appear;
+    animation-name: appear;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+}
+
+.text-card hr {
+    width: 30%;
+    -webkit-animation-name: hr-intro;
+    animation-name: hr-intro;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 section {
@@ -97,7 +203,7 @@ section {
 
 
 
-#skills{
+#skills {
     text-align: center;
 }
 
@@ -138,7 +244,7 @@ i {
     margin: 0;
 }
 
-#projects h2{
+#projects h2 {
     text-align: center;
     color: #333;
 }
@@ -171,12 +277,10 @@ footer {
     position: relative;
 }
 
-.card {
+footer .card {
     background-color: #fff;
-    /*
-    -webkit-box-shadow: 5px 5px 8px #7FB2FA;
-    box-shadow: 5px 5px 8px #7FB2FA;
-*/
+    -webkit-box-shadow: 0px 0px 17px -4px black;
+    box-shadow: 0px 0px 17px -4px black;
     width: 75%;
     margin: auto;
     padding: 15px;
@@ -220,7 +324,7 @@ a {
 
 
 @media screen and (min-width: 414px) {
-    .text-card h1{
+    .text-card h1 {
         font-size: 5rem;
     }
 
@@ -233,28 +337,28 @@ a {
     }
 }
 
-@media screen and (min-width: 768px){
-    header{
+@media screen and (min-width: 768px) {
+    header {
         height: 65vh;
     }
 
-    .contact-card{
+    .contact-card {
         font-size: 2rem;
     }
 
-    .text-card{
+    .text-card {
         padding-top: calc(20% - 3rem);
     }
 
-    .text-card h1{
+    .text-card h1 {
         font-size: 10rem;
     }
 
-    .text-card h4{
+    .text-card h4 {
         font-size: 2.4rem;
     }
 
-    .profile-img{
+    .profile-img {
         width: 250px;
         height: 250px;
         position: inherit;
@@ -263,116 +367,142 @@ a {
         margin: 0 15px;
     }
 
-    #skills-img{
+    #skills-img {
         height: 913px;
     }
 
-    .skill-cards{
+    .skill-cards {
         margin: 25px 8px;
         max-height: 300px;
     }
 
-    footer{
+    footer {
         height: 80vh;
     }
 }
 
-@media screen and (min-width: 1024px){
-    header{
+@media screen and (min-width: 1024px) {
+    header {
         height: 50vh;
     }
 
-    .text-card{
+    .text-card {
         padding-top: calc(10% - 3rem);
     }
 
-    .text-card h1{
+    .text-card h1 {
         font-size: 15rem;
     }
 
-    #skills section:nth-child(2){
+    #skills section:nth-child(2) {
         margin-top: 9rem;
     }
 
-    footer{
+    footer {
         height: 60vh;
     }
 
-    #contact-info h4{
+    #contact-info h4 {
         font-size: 5rem;
     }
 
-    #contact-info p{
+    #contact-info p {
         font-size: 1.5em;
     }
 
-    #contact-info i{
+    #contact-info i {
         font-size: 2.5em;
     }
 }
 
-@media screen and (min-width: 1440px){
-    header{
+@media screen and (min-width: 1440px) {
+    header {
         height: 60vh;
     }
 
-    .text-card{
-        padding-top: calc(5% - 3rem;)
+    .text-card {
+        padding-top: calc(5% + 3rem);
     }
 
-    .text-card h1{
+    .text-card h1 {
         font-size: 10rem;
     }
 
-    footer{
+    .text-card h1 br{
+        display: none;
+    }
+
+    #skills-img {
+        height: 820px;
+    }
+
+    #skills section:nth-child(2) {
+        margin-top: 0;
+    }
+
+    #projects section {
+        margin-left: 8%;
+    }
+
+    #projects img {
+        width: 80%;
+    }
+
+    footer {
         height: 90vh;
+    }
+
+    #contact-info h4 {
+        font-size: 3rem;
+    }
+
+    #contact-info p {
+        font-size: 1em;
+    }
+
+    #contact-info i {
+        font-size: 2em;
+    }
+
+    footer .card {
+        width: 30%;
     }
 }
 
 
-@media screen and (min-width: 1920px){
-    p{
-        font-size: 2.5rem;
+@media screen and (min-width: 1920px) {
+
+    p {
+        font-size: 1.8rem;
     }
 
-    header{
-        height: 40vh;
+    header {
+        height: 50vh;
     }
 
-    .text-card{
+    .text-card {
         padding-top: calc(4% - 3rem);
     }
 
-    .text-card h1{
-        font-size: 20rem;
+    .text-card h1 {
+        font-size: 15rem;
     }
 
-    .text-card h4{
+    .text-card h4 {
         font-size: 3rem;
     }
 
-    #about{
+    #about {
         margin-top: 10%;
     }
 
-    .profile-img{
-        width: 40%;
-        height: 400px;
+    .profile-img {
+        width: 60%;
+        height: 300px;
         background-position: top right;
     }
 
-    footer{
-        height: 40vh;
-    }
-
-    .card{
-        width: 42%;
-        top: 18%;
-        left: -40%;
-    }
-
-    #contact-info{
-        bottom: 25%;
-        right: -40%;
+    footer {
+        height: 60vh;
     }
 }
