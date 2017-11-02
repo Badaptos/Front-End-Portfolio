@@ -97,6 +97,24 @@ button {
     color: #fff;
 }
 
+input[type="submit"]{
+    color: #FF7140;
+}
+
+button:hover{
+    -webkit-box-shadow: 0 2px 2px black;
+    box-shadow: 0 2px 10px black;
+    -webkit-transition: -webkit-box-shadow 2s;
+    transition: -webkit-box-shadow 2s;
+    -webkit-transition: -webkit-box-shadow 0.5s;
+    transition: -webkit-box-shadow 0.5s;
+    -webkit-transition: color 0.5s, -webkit-box-shadow 0.5s;
+    transition: color 0.5s, -webkit-box-shadow 0.5s;
+    transition: box-shadow 0.5s, color 0.5s;
+    transition: box-shadow 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+    color: #86C9F5;
+}
+
 img {
     max-width: 100%;
 }
@@ -270,7 +288,7 @@ i {
 }
 
 footer {
-    height: 120vh;
+    height: 135vh;
     text-align: center;
     background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
     margin-top: 10%;
@@ -288,8 +306,13 @@ footer .card {
     top: 5%;
     left: 0;
     right: 0;
-    max-height: calc(80vh - 70px);
+    max-height: calc(88vh - 70px);
     border-radius: 5px;
+}
+
+.card h3{
+    color: #FF7140;
+    font-weight: 300;
 }
 
 #contact-info {
@@ -318,7 +341,7 @@ a {
     }
 
     #contact-info {
-        bottom: 10%;
+        bottom: 5%;
     }
 }
 
@@ -377,7 +400,7 @@ a {
     }
 
     footer {
-        height: 80vh;
+        height: 70vh;
     }
 }
 
