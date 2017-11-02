@@ -87,7 +87,7 @@ section {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 106%;
 }
 
 #skills-img {
@@ -97,7 +97,7 @@ section {
 
 
 
-#skills {
+#skills{
     text-align: center;
 }
 
@@ -127,6 +127,7 @@ i {
 
 .skill-cards p {
     margin-top: 4rem;
+    text-align: left;
 }
 
 #projects div {
@@ -204,7 +205,7 @@ a {
 
 @media screen and (min-width: 375px) {
     .profile-img {
-        bottom: 30px;
+        bottom: 107%;
     }
 
     #contact-info {
@@ -214,11 +215,46 @@ a {
 
 
 @media screen and (min-width: 414px) {
+    .text-card h1{
+        font-size: 5rem;
+    }
+
     profile-img {
-        bottom: 40px;
+        bottom: 108%;
     }
 
     footer {
         height: 105vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    header{
+        height: 65vh;
+    }
+
+    .contact-card{
+        font-size: 2rem;
+    }
+
+    .text-card{
+        padding-top: calc(20% - 3rem);
+    }
+
+    .text-card h1{
+        font-size: 10rem;
+    }
+
+    .text-card h4{
+        font-size: 2.4rem;
+    }
+
+    .profile-img{
+        width: 250px;
+        height: 250px;
+        position: inherit;
+        border-radius: 0;
+        float: right;
+        margin: 0 15px;
     }
 }
