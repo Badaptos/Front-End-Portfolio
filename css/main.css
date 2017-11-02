@@ -8,13 +8,19 @@ COLORS BEING USED
 #FF7140 - LIGHT RED
 
 */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-button{
+p,
+a {
+    letter-spacing: 0.1rem;
+}
+
+button {
     border: none;
-    background-color: #448AFF;
+    background-color: #FF7140;
     color: #fff;
 }
 
@@ -25,12 +31,6 @@ img {
 header {
     height: 85vh;
     background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
-/*
-    background-image: url(../images/pattern.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-*/
     font-family: 'Megrim', cursive;
 }
 
@@ -65,8 +65,8 @@ h5 {
     font-weight: 900;
 }
 
-.text-card h4{
-    font-family: 'Open Sans', sans-serif;
+.text-card h4 {
+    font-family: 'Roboto', sans-serif;
     color: #333;
     font-weight: 600;
     font-size: 1.8rem;
@@ -90,35 +90,71 @@ section {
     bottom: 20px;
 }
 
-#skills-img{
+#skills-img {
     margin-top: -70px;
     background-color: #F7F7F7;
 }
+
+
 
 #skills {
     text-align: center;
 }
 
-#skills i{
-/*    color: #FF7140;*/
-}
-
-.skill-cards{
+.skill-cards {
     background-color: #fff;
     max-width: 100%;
     margin: 25px 0;
     padding: 20px;
-    min-height: 360px
+    min-height: 360px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 5px 3px -3px #FF7140;
+    box-shadow: 1px 5px 3px -3px #FF7140;
+}
+
+.skill-cards div {
+    background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
+    margin: -20px;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.skill-cards h3,
+i {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.skill-cards p {
+    margin-top: 4rem;
 }
 
 #projects div {
     margin-bottom: 50px;
 }
 
-#plumage{
+#projects section {
+    margin: 0;
+}
+
+#projects h3 {
+    border-left: 5px solid #FF7140;
+    padding-left: 5px;
+}
+
+#plumage {
     background: url(../images/plumage.png) center center;
     background-size: cover;
     height: 200px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-weight: 300;
 }
 
 footer {
@@ -131,7 +167,7 @@ footer {
 
 .card {
     background-color: #fff;
-/*
+    /*
     -webkit-box-shadow: 5px 5px 8px #7FB2FA;
     box-shadow: 5px 5px 8px #7FB2FA;
 */
@@ -155,14 +191,34 @@ footer {
 
 #contact-info h4,
 a {
-    color: #333;
+    color: #fff;
 }
 
-.subtitle{
-    font-size: 1.5rem;
-    color: #333;
-    margin: 0;
-    margin-top: -15px;
-    margin-bottom: 15px;
-    font-weight: 300;
+#contact-info h4 {
+    font-family: 'Megrim', sans-serif;
+}
+
+#contact-info i {
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 375px) {
+    .profile-img {
+        bottom: 30px;
+    }
+
+    #contact-info {
+        bottom: 10%;
+    }
+}
+
+
+@media screen and (min-width: 414px) {
+    profile-img {
+        bottom: 40px;
+    }
+
+    footer {
+        height: 105vh;
+    }
 }
