@@ -49,46 +49,50 @@
         <div class="container">
             <section class="row" id="about">
                 <div class="twelve columns">
-                   <div class="profile-img"></div>
+                    <div class="profile-img"></div>
                     <p> my name is Alejandro Garcia! I am 21 years old and reside in sunny San Diego, CA. My passion for technology has led me to want to pursue a career in the world of tech. Thanks to this desire this past year I decided to start learning front end web development. It has proven to be a difficult path, but I have come to understand that nothing good comes easily. Only through hard work, dedication and passion have I got as far as I am now. I have gained a knowledge and desire to continue learning and improving my skills as a developer. My next goal is to challenge myself even further by working with like minded individuals that have more experience that I can learn from. Have a look and feel free to contact me if any questions come up!</p>
                 </div>
             </section>
         </div>
         <div id="skills-img">
-            <div class="container">
-                <section class="row" id="skills">
-                    <div class="three columns skill-cards">
+            <div class="container" id="skills">
+                <section class="row">
+                    <div class="one-half column skill-cards">
                         <div>
                             <i class="fa fa-code fa-2x" aria-hidden="true"></i>
                             <h3>Frontend <br> Development</h3>
                         </div>
                         <p>Ability to take a design and create a fully functioning frontend. Technologies used HTML5, CSS3, Sass, Javascript and Jquery.</p>
                     </div>
-                    <div class="three columns skill-cards">
+                    <div class="one-half column skill-cards">
                         <div>
                             <i class="fa fa-eyedropper fa-2x" aria-hidden="true"></i>
-                            <h3>UI & UX</h3>
+                            <h3>UI & UX <br> Design</h3>
                         </div>
                         <p>UI and UX can make or break a webpage. Creating something simple and beautiful while offering great design and user engagement is my philosophy.</p>
                     </div>
-                    <div class="three columns skill-cards">
+                </section>
+                <section class="row">
+                    <div class="one-half column skill-cards">
                         <div>
                             <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
                             <h3>Responsive<br>Design</h3>
                         </div>
                         <p>The ever increasing number of users on mobile makes responsive design not only a best practice, but also a necessary one.</p>
                     </div>
-                    <div class="three columns skill-cards">
+                    <div class="one-half column skill-cards">
                         <div>
-                            <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-                            <h3>Insert skill</h3>
+                            <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                            <h3>Team <br> Player</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum ullam, animi pariatur quibusdam aut vitae ex exercitationem officia id quam fugit rerum et tempora corporis quod saepe sint eius excepturi!</p>
+                        <p>Working alone can be great, but working along side a team is better. Team projects have taught me how to work with others in order to work effeciently to accomplish a goal.</p>
                     </div>
                 </section>
             </div>
         </div>
         <div class="container" id="projects">
+           <h2>Projects</h2>
+           <hr>
             <section class="row">
                 <div class="six columns">
                     <img src="images/littlesunshine.jpg" alt="Little sunshine website">
@@ -98,7 +102,7 @@
                     <button>Case study</button>
                 </div>
                 <div class="six columns">
-                    <img src="images/plumage.jpeg" alt="plumage website">
+                    <img src="images/plumage.jpg" alt="plumage website">
                     <h3>Todo List</h3>
                     <h4 class="subtitle">HTML / CSS / JS</h4>
                     <p>A todo list using vanilla javascript</p>
@@ -107,7 +111,7 @@
             </section>
             <section class="row">
                 <div class="six columns">
-                    <img src="images/plumage.png" alt="plumage website">
+                    <img src="images/plumage.jpg" alt="plumage website">
                     <h3>Plumage CSS</h3>
                     <h4 class="subtitle">HTML / CSS / JS / UI / UX</h4>
                     <p>A frontend framework</p>
@@ -125,20 +129,26 @@
     </main>
     <footer>
         <div class="card">
-            <h3>Get in contact!</h3>
-            <form action="">
-                <label for="">Your Email</label>
-                <input class="u-full-width" type="text">
-                <label for="">Your Subject</label>
-                <input class="u-full-width" type="text">
-                <label for="">Your Message</label>
-                <input class="u-full-width" type="text">
+            <h3>Questions?</h3>
+            <form>
+                <div class="row">
+                    <div class="six columns">
+                        <label for="exampleEmailInput">Your email</label>
+                        <input class="u-full-width" type="email" placeholder="email@mailbox.com" id="exampleEmailInput">
+                    </div>
+                    <div class="six columns">
+                        <label for="subject">Subject</label>
+                        <input class="u-full-width" type="text" placeholder="Your subject">
+                    </div>
+                </div>
+                <label for="exampleMessage">Message</label>
+                <textarea class="u-full-width" placeholder="Hi Alex …" id="exampleMessage"></textarea>
+                <input class="button-primary" type="submit" value="Submit">
             </form>
-            <button type="button" name="button">Submit</button>
         </div>
         <div id="contact-info">
             <div class="row">
-                <div class="one column">
+                <div class="twelve columns">
                     <h4>Email</h4>
                     <a href="mailto:alex.g9415@gmail.com">
                         <p>alex.g9415@gmail.com</p>
