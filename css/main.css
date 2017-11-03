@@ -127,7 +127,13 @@ img {
     max-width: 100%;
 }
 
-header {
+.hero {
+    height: 85vh;
+    background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
+    font-family: 'Megrim', cursive;
+}
+
+.project-hero{
     height: 85vh;
     background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
     font-family: 'Megrim', cursive;
@@ -506,10 +512,6 @@ a {
 
     footer {
         height: 75vh;
-    }
-
-    #contact-info{
-
     }
 }
 
