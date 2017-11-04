@@ -121,6 +121,10 @@ a {
     letter-spacing: 0.1rem;
 }
 
+a button:hover{
+    color: #fff;
+}
+
 button {
     border: none;
     background-color: #FF7140;
@@ -397,6 +401,23 @@ a {
     margin-top: 0;
 }
 
+.home-button {
+    font-size: 2rem;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.home-button i {
+    color: #7FB2FA;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
 .project-hero h1 {
     color: #fff;
 }
@@ -423,11 +444,6 @@ a {
 #case-study .project-hero h2 {
     font-size: 1.6rem;
     color: #fff;
-}
-
-#case-study .project-hero h4 {
-    -webkit-animation: none;
-    animation: none;
 }
 
 #case-study #skills-img {
@@ -458,6 +474,14 @@ a {
     /*************************
     *CASE STUDY PAGES STYLING*
     **************************/
+    #case-study .project-hero a {
+        font-size: 2rem;
+    }
+
+    #case-study .project-hero h2 {
+        font-size: 2rem;
+    }
+
     #case-study #skills-img {
         height: 278px;
     }
@@ -539,11 +563,51 @@ a {
     footer .card {
         max-height: calc(130vh - 70px);
     }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    .project-hero {
+        height: 65vh;
+    }
+
+    #case-study .project-hero .text-card {
+        padding-top: calc(5% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 365px;
+    }
+
+    #case-study footer {
+        margin-top: 5%;
+    }
 }
 
 @media screen and (min-width:568px) and (orientation: landscape) {
     footer {
         height: 200vh;
+    }
+}
+
+@media screen and (min-width:667px) and (orientation: landscape) {
+
+
+
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    .project-hero {
+        height: 65vh;
+    }
+
+    #case-study .project-hero .text-card {
+        padding-top: calc(10% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 425px;
     }
 }
 
@@ -563,6 +627,14 @@ a {
 
     footer {
         height: 180vh;
+    }
+
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study #skills-img {
+        height: 460px;
     }
 }
 
@@ -612,6 +684,24 @@ a {
     /*************************
     *CASE STUDY PAGES STYLING*
     **************************/
+    .home-button {
+        font-size: 2rem;
+        background-color: #fff;
+        height: 40px;
+        width: 40px;
+        display: block;
+        padding: 10px;
+    }
+
+    .home-button i {
+        color: #7FB2FA;
+        font-size: 4rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+
     #case-study .project-hero .text-card {
         padding-top: calc(13% - 3rem);
     }
@@ -621,7 +711,7 @@ a {
         margin-top: 10px;
     }
 
-    #case-study #skills-img .container{
+    #case-study #skills-img .container {
         margin-top: 0;
         padding: 5% 0;
     }
@@ -630,7 +720,7 @@ a {
         height: 50px;
     }
 
-    #case-study footer{
+    #case-study footer {
         margin-top: 5%;
     }
 }
@@ -711,11 +801,18 @@ a {
     footer {
         height: 80vh;
     }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(20% - 3rem);
+    }
 }
 
 @media screen and (min-width: 1440px) {
-    header {
-        height: 60vh;
+    .hero {
+        height: 65vh;
     }
 
     .text-card {
@@ -764,6 +861,7 @@ a {
 
     footer {
         height: 100vh;
+        margin-top: 0;
     }
 
     footer .card {
@@ -774,7 +872,7 @@ a {
     *CASE STUDY PAGES STYLING*
     **************************/
     #case-study .project-hero .text-card {
-        padding-top: calc(8% - 3rem);
+        padding-top: calc(15% - 3rem);
     }
 
     #case-study #skills-img {
@@ -789,12 +887,12 @@ a {
         font-size: 1.8rem;
     }
 
-    header {
-        height: 50vh;
+    .hero {
+        height: 65vh;
     }
 
     .text-card {
-        padding-top: calc(4% - 3rem);
+        padding-top: calc(15% - 3rem);
     }
 
     .text-card h1 {
@@ -817,13 +915,21 @@ a {
 
     footer {
         height: 60vh;
+        margin-top: 0;
     }
 
     /*************************
     *CASE STUDY PAGES STYLING*
     **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(15% - 3rem);
+    }
 
     #case-study #skills-img {
         height: 910px;
+    }
+
+    #case-study footer {
+        margin-top: 1%;
     }
 }
