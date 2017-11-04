@@ -81,16 +81,34 @@ COLORS BEING USED
     }
 }
 
-@-webkit-keyframes heartbeat{
-    0%{-webkit-transform: scale(1.3);transform: scale(1.3);}
-    50%{-webkit-transform: scale(1.6);transform: scale(1.6);}
-    100%{-webkit-transform: scale(1.3);transform: scale(1.3);}
+@-webkit-keyframes heartbeat {
+    0% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    50% {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+    }
+    100% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
 }
 
-@keyframes heartbeat{
-    0%{-webkit-transform: scale(1.3);transform: scale(1.3);}
-    50%{-webkit-transform: scale(1.6);transform: scale(1.6);}
-    100%{-webkit-transform: scale(1.3);transform: scale(1.3);}
+@keyframes heartbeat {
+    0% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    50% {
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+    }
+    100% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
 }
 
 
@@ -128,12 +146,6 @@ img {
 }
 
 .hero {
-    height: 85vh;
-    background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
-    font-family: 'Megrim', cursive;
-}
-
-.project-hero{
     height: 85vh;
     background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
     font-family: 'Megrim', cursive;
@@ -349,7 +361,7 @@ a {
     margin: 0 1rem;
 }
 
-.love{
+.love {
     position: absolute;
     bottom: 0;
     background-color: #FF7140;
@@ -359,7 +371,7 @@ a {
     font-size: 2rem;
 }
 
-.love i{
+.love i {
     color: #D50000;
     padding: 10px;
     -webkit-animation-name: heartbeat;
@@ -370,6 +382,70 @@ a {
     animation-iteration-count: infinite;
 }
 
+/*************************
+*CASE STUDY PAGES STYLING*
+**************************/
+
+.project-hero {
+    height: 45vh;
+    background: linear-gradient(45deg, #448AFF, #42A5F5, #448AFF);
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#case-study .project-hero .container {
+    margin-top: 0;
+}
+
+.project-hero h1 {
+    color: #fff;
+}
+
+#case-study .container {
+    margin-top: 50px;
+}
+
+#case-study .project-hero .text-card {
+    padding-top: calc(15% - 3rem);
+}
+
+#case-study .project-hero hr {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#case-study .project-hero h1 {
+    -webkit-animation: none;
+    animation: none;
+    margin-top: 1.5rem;
+}
+
+#case-study .project-hero h2 {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+#case-study .project-hero h4 {
+    -webkit-animation: none;
+    animation: none;
+}
+
+#case-study #skills-img {
+    height: 240px;
+}
+
+#case-study button {
+    min-width: 141px;
+    width: 100%;
+    display: block;
+    margin: 1rem auto;
+}
+
+#case-study .button-wrapper {
+    margin-top: 3rem;
+}
+
+
 @media screen and (min-width: 375px) {
     .profile-img {
         bottom: 107%;
@@ -378,6 +454,18 @@ a {
     #contact-info {
         bottom: 12%;
     }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study #skills-img {
+        height: 278px;
+    }
+
+    #case-study .project-hero .text-card {
+        padding-top: calc(20% - 3rem);
+    }
+
 }
 
 
@@ -394,79 +482,86 @@ a {
         height: 115vh;
     }
 
-    #contact-info{
+    #contact-info {
         bottom: 10%;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study #skills-img {
+        height: 290px;
     }
 }
 
-@media screen and (min-width:568px) and (orientation: landscape){
+@media screen and (min-width:568px) and (orientation: landscape) {
 
-    h3{
+    h3 {
         font-size: 2.6rem;
     }
 
-    .text-card{
+    .text-card {
         padding-top: calc(10% - 3rem);
     }
 
-    .text-card h1{
+    .text-card h1 {
         font-size: 3rem;
     }
 
-    .text-card h1 br{
+    .text-card h1 br {
         display: none;
     }
 
-    .text-card hr{
+    .text-card hr {
         margin-top: 0;
         margin-bottom: 0;
     }
 
-    .profile-img{
+    .profile-img {
         width: 100px;
         height: 100px;
         bottom: 116%;
     }
 
-    .skill-cards{
+    .skill-cards {
         margin: 25px 6px;
         min-height: 460px;
     }
 
-    #skills section:nth-child(2){
+    #skills section:nth-child(2) {
         margin-top: 0;
     }
 
-    footer{
+    footer {
         height: 220vh;
     }
 
-    footer .card{
+    footer .card {
         max-height: calc(130vh - 70px);
     }
 }
 
-@media screen and (min-width:568px) and (orientation: landscape){
-    footer{
+@media screen and (min-width:568px) and (orientation: landscape) {
+    footer {
         height: 200vh;
     }
 }
 
-@media screen and (min-width:736px) and (orientation: landscape){
-    .text-card h1{
+@media screen and (min-width:736px) and (orientation: landscape) {
+    .text-card h1 {
         font-size: 6rem;
     }
 
-    .text-card hr{
+    .text-card hr {
         margin-top: 15px;
         margin-bottom: 15px;
     }
 
-    .text-card h4{
+    .text-card h4 {
         font-size: 2.5rem;
     }
 
-    footer{
+    footer {
         height: 180vh;
     }
 }
@@ -513,6 +608,31 @@ a {
     footer {
         height: 75vh;
     }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(13% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 510px;
+        margin-top: 10px;
+    }
+
+    #case-study #skills-img .container{
+        margin-top: 0;
+        padding: 5% 0;
+    }
+
+    #case-study button {
+        height: 50px;
+    }
+
+    #case-study footer{
+        margin-top: 5%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -520,7 +640,7 @@ a {
         height: 50vh;
     }
 
-    .contact-card i{
+    .contact-card i {
         font-size: 4rem;
         -webkit-transition: font-size 1s;
         transition: font-size 1s;
@@ -529,8 +649,8 @@ a {
     .contact-card i:hover {
         margin-bottom: -10%;
         font-size: 6rem;
-        -webkit-transition:  font-size 1s;
-        transition:  font-size 1s;
+        -webkit-transition: font-size 1s;
+        transition: font-size 1s;
     }
 
     .text-card {
@@ -560,28 +680,35 @@ a {
     #contact-info i {
         font-size: 2.5em;
     }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study #skills-img {
+        height: 685px;
+    }
 }
 
-@media screen and (min-width:1024px) and (orientation: landscape){
-    .text-card h1{
+@media screen and (min-width:1024px) and (orientation: landscape) {
+    .text-card h1 {
         font-size: 9rem;
     }
 
-    .skill-cards{
+    .skill-cards {
         min-height: 350px;
     }
 
-    .skill-cards div{
+    .skill-cards div {
         min-height: 140px;
     }
 
-    footer{
+    footer {
         height: 105vh;
     }
 }
 
-@media screen and (min-width:1366px) and (orientation: landscape){
-    footer{
+@media screen and (min-width:1366px) and (orientation: landscape) {
+    footer {
         height: 80vh;
     }
 }
@@ -635,12 +762,23 @@ a {
         font-size: 2em;
     }
 
-    footer{
+    footer {
         height: 100vh;
     }
 
     footer .card {
         width: 30%;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(8% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 850px;
     }
 }
 
@@ -679,5 +817,13 @@ a {
 
     footer {
         height: 60vh;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+
+    #case-study #skills-img {
+        height: 910px;
     }
 }
