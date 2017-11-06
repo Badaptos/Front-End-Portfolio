@@ -131,6 +131,11 @@ button {
     color: #fff;
 }
 
+button a{
+    display: inline-block;
+    width: 100%;
+}
+
 input[type="submit"] {
     color: #FF7140;
 }
@@ -732,15 +737,13 @@ a {
 
     .contact-card i {
         font-size: 4rem;
-        -webkit-transition: font-size 1s;
-        transition: font-size 1s;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
     }
 
     .contact-card i:hover {
-        margin-bottom: -10%;
-        font-size: 6rem;
-        -webkit-transition: font-size 1s;
-        transition: font-size 1s;
+        -webkit-transform: scale(1);
+        transform: scale(1.5);
     }
 
     .text-card {
