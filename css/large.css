@@ -1,0 +1,152 @@
+@media screen and (min-width: 1024px) {
+    header {
+        height: 50vh;
+    }
+
+    .contact-card i {
+        font-size: 4rem;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+    }
+
+    .contact-card i:hover {
+        -webkit-transform: scale(1);
+        transform: scale(1.5);
+    }
+
+    .text-card {
+        padding-top: calc(10% - 3rem);
+    }
+
+    .text-card h1 {
+        font-size: 15rem;
+    }
+
+    #skills section:nth-child(2) {
+        margin-top: 9rem;
+    }
+
+    footer {
+        height: 60vh;
+    }
+
+    #contact-info h4 {
+        font-size: 5rem;
+    }
+
+    #contact-info p {
+        font-size: 1.5em;
+    }
+
+    #contact-info i {
+        font-size: 2.5em;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study #skills-img {
+        height: 685px;
+    }
+}
+
+@media screen and (min-width:1024px) and (orientation: landscape) {
+    .text-card h1 {
+        font-size: 9rem;
+    }
+
+    .skill-cards {
+        min-height: 350px;
+    }
+
+    .skill-cards div {
+        min-height: 140px;
+    }
+
+    footer {
+        height: 105vh;
+    }
+}
+
+@media screen and (min-width:1366px) and (orientation: landscape) {
+    footer {
+        height: 80vh;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(20% - 3rem);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        height: 65vh;
+    }
+
+    .text-card {
+        padding-top: calc(5% + 3rem);
+    }
+
+    .text-card h1 {
+        font-size: 10rem;
+    }
+
+    .text-card h1 br {
+        display: none;
+    }
+
+    #skills-img {
+        height: 820px;
+    }
+
+    #skills section:nth-child(2) {
+        margin-top: 0;
+    }
+
+    #projects section {
+        margin-left: 8%;
+    }
+
+    #projects img {
+        width: 80%;
+    }
+
+    footer {
+        height: 90vh;
+    }
+
+    #contact-info h4 {
+        font-size: 3rem;
+    }
+
+    #contact-info p {
+        font-size: 1em;
+    }
+
+    #contact-info i {
+        font-size: 2em;
+    }
+
+    footer {
+        height: 100vh;
+        margin-top: 0;
+    }
+
+    footer .card {
+        width: 30%;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(15% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 850px;
+    }
+}

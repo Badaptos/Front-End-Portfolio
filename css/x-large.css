@@ -1,0 +1,52 @@
+@media screen and (min-width: 1920px) {
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        height: 65vh;
+    }
+
+    .text-card {
+        padding-top: calc(15% - 3rem);
+    }
+
+    .text-card h1 {
+        font-size: 15rem;
+    }
+
+    .text-card h4 {
+        font-size: 3rem;
+    }
+
+    #about {
+        margin-top: 10%;
+    }
+
+    .profile-img {
+        width: 60%;
+        height: 300px;
+        background-position: top right;
+    }
+
+    footer {
+        height: 60vh;
+        margin-top: 0;
+    }
+
+    /*************************
+    *CASE STUDY PAGES STYLING*
+    **************************/
+    #case-study .project-hero .text-card {
+        padding-top: calc(15% - 3rem);
+    }
+
+    #case-study #skills-img {
+        height: 910px;
+    }
+
+    #case-study footer {
+        margin-top: 1%;
+    }
+}

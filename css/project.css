@@ -1,0 +1,75 @@
+/*************************
+*CASE STUDY PAGES STYLING*
+**************************/
+
+.project-hero {
+    height: 45vh;
+    background: linear-gradient(45deg, #448aff, #42a5f5, #448aff);
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #case-study .project-hero .container {
+    margin-top: 0;
+  }
+  
+  .home-button {
+    font-size: 2rem;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 10px;
+  }
+  
+  .home-button i {
+    color: #7fb2fa;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+.project-hero h1 {
+    color: #fff;
+  }
+  
+  #case-study .container {
+    margin-top: 50px;
+  }
+  
+  #case-study .project-hero .text-card {
+    padding-top: calc(15% - 3rem);
+  }
+  
+  #case-study .project-hero hr {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  #case-study .project-hero h1 {
+    -webkit-animation: none;
+    animation: none;
+    margin-top: 1.5rem;
+  }
+  
+  #case-study .project-hero h2 {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  #case-study #skills-img {
+    height: 240px;
+  }
+  
+  #case-study button {
+    min-width: 141px;
+    width: 100%;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  #case-study .button-wrapper {
+    margin-top: 3rem;
+  }
+  
